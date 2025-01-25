@@ -1,0 +1,23 @@
+/* * Css Reset */
+* {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#navbar {
+  padding: 0px 9% 0px;
+}
+
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+
+#btn {
+  padding: 5px;
+  border: 1px solid crimson;
+  background: none;
+  color: crimson;
+  border-radius: 5px;
+}
