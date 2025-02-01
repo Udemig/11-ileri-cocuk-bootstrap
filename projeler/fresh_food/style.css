@@ -4,6 +4,7 @@
   outline: none;
   box-sizing: border-box;
 }
+/* Navbar */
 
 #navbar {
   padding: 0px 9% 0px;
@@ -20,4 +21,67 @@
   background: none;
   color: crimson;
   border-radius: 5px;
+}
+
+/* Home */
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 11% 80px;
+  flex-wrap: wrap;
+}
+
+.home .home-content {
+  flex: 1 1 400px;
+  padding: 20px;
+}
+
+.home .home-image {
+  flex: 1 1 300px;
+}
+
+.home .home-image img {
+  width: 100%;
+}
+/* Service */
+.service .row .card img {
+  width: 200px;
+  margin: auto;
+}
+/* Top Menu */
+.top-menu {
+  padding: 10px 11% 100px;
+}
+.raiting i {
+  color: #f9a503;
+}
+.top-menu .card p i {
+  color: crimson;
+}
+/* Line */
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: crimson;
+}
+/* Menu */
+.menu {
+  padding: 100px 11% 100px;
+}
+/* Contact */
+.contact {
+  padding: 100px 11% 100px;
+}
+/* Review */
+.review {
+  padding: 100px 11% 100px;
+}
+
+@media (max-width: 875px) {
+  .home .home-image img {
+    max-width: unset;
+  }
 }
