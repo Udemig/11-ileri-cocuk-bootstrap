@@ -4,6 +4,18 @@
   outline: none;
   box-sizing: border-box;
 }
+
+section {
+  padding: 100px 11% 100px;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: crimson;
+  border-radius: 10px;
+}
 /* Navbar */
 
 #navbar {
@@ -67,17 +79,25 @@
   height: 2px;
   background-color: crimson;
 }
-/* Menu */
-.menu {
-  padding: 100px 11% 100px;
+/* Footer */
+footer {
+  padding: 15px 11% 15px;
 }
-/* Contact */
-.contact {
-  padding: 100px 11% 100px;
+
+footer .logo img {
+  width: 250px;
 }
-/* Review */
-.review {
-  padding: 100px 11% 100px;
+.social-icons i {
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.social-icons i:hover {
+  background-color: crimson;
+  color: white;
 }
 
 @media (max-width: 875px) {
